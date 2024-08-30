@@ -141,9 +141,10 @@ body {
     overflow: hidden;
 }
 .f_single{
-    width: 28%;
-    margin-right: 2.5%;
-    /*border: 1px solid red;*/
+    width: 33.33%;
+    /*margin-right: 2.5%;*/
+    box-sizing: border-box;
+    border: 1px solid white;
     padding: 30px 1.5% 45px;
     float: left;
     color: #0F2656;
@@ -180,10 +181,10 @@ body {
     font-family: sans-serif;
     font-size: 15px;
     margin: 0.5%;
+    background-color: #ffffff;
 }
 .footer p {
     padding: 15px 25px 15px;
     text-align: center;
-    background-color: #ffffff;
     color: #000000;
 }
